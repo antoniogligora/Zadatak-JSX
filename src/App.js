@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
+  const a = "ja sam prvi";
+  const b = "ja sam drugi";
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <p>Ovo je moj prvi zadatak u JSX</p>
+      <p>Tko sam ja: {a}</p>
+      <p>Tko sam pak ja: {b}</p>
+      <p>
+        Zavrsnica je: {a} {b}
+      </p>
+    </>
   );
 }
 
